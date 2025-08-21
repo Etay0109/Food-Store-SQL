@@ -83,7 +83,7 @@ CREATE DATABASE Ecommerce
 ## 🛠️ Step 2: Update Database Connection
 
 ```java
-String dbURL = "jdbc:postgresql://localhost:5432/superstore";
+String dbURL = "jdbc:postgresql://localhost:5432/Ecommerce";
 String username = "<your_username>";
 String pwd = "<your_password>";
 ```
