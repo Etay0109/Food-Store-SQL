@@ -1,0 +1,22 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+
+# macOS
+.DS_Store
+
+# JAR and binaries
+*.jar
+*.war
+*.class
+
+# Logs
+*.log
+
+# Backup files
+*.swp
+*.swo
