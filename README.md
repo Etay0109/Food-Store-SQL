@@ -101,6 +101,37 @@ javac -cp ".:postgresql-42.6.0.jar" -d bin src/main/java/org/example/*.java
 java -cp ".:bin:postgresql-42.6.0.jar" org.example.Main
 ```
 
+## 🚨 Important: Create `DBSecrets.java` Locally
+
+The file **`DBSecrets.java`** is **not included** in this repository because it contains private database credentials and is intentionally ignored through `.gitignore`.
+
+To run the project successfully, you must **create this file manually** on your own machine.
+
+### 📄 File Location
+src/main/java/org/example/DBSecrets.java
+
+
+### ✍️ File Content
+
+```java
+package org.example;
+
+public class DBSecrets {
+    public static String getURL() {
+        return "jdbc:postgresql://localhost:5432/Ecommerce";
+    }
+
+    public static String getUsername() {
+        return "<your_username>";
+    }
+
+    public static String getPassword() {
+        return "<your_password>";
+    }
+}
+```
+
+
 
 
 
